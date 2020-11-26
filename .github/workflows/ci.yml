@@ -1,0 +1,14 @@
+name: CI
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello
+        run: echo hello CI
+
+      - name: Checkout sources
+        uses: actions/checkout@v1

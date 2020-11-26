@@ -12,3 +12,6 @@ jobs:
 
       - name: Checkout sources
         uses: actions/checkout@v1
+      
+      - name: Log
+        run: git log
